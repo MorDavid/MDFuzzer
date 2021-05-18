@@ -1,0 +1,27 @@
+{  
+  "manifest_version": 2,
+  "name": "MD-Fuzzer",
+  "version": "1.0",
+  "author": "Mor David",
+  "description": "MD-Fuzzer is browser extension for searching XSS, HTML Injection, etc.",  
+  "permissions": ["activeTab", "declarativeContent","storage","contextMenus","tabs"], 
+  "browser_action": {
+    "default_popup": "popup.html", 
+     "default_icon": {  
+      "16": "images/get_started16.png",  
+      "32": "images/get_started32.png",  
+      "48": "images/get_started48.png",  
+      "128": "images/get_started128.png"  
+    }  
+  },  
+  "background": {  
+    "scripts": ["popup.js"],
+    "persistent": false
+  },  
+  "icons": {  
+    "16": "images/get_started16.png",  
+    "32": "images/get_started32.png",  
+    "48": "images/get_started48.png",  
+    "128": "images/get_started128.png"  
+  }
+}  

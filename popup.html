@@ -1,0 +1,76 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>
+div.triagle {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to top right , #000 0%, #000 50%, red 50%, red 100%);
+    float:right;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+body,html{  
+	color:#fff;
+	background-color:#000;
+	padding:10px;
+	margin:0px;
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+textarea{
+	color:#ccc;
+	background:#000;
+	border:0px solid;
+	height:140px;
+	max-width:100%;
+	min-width:100%;
+}
+a{
+	color:#fff;
+}
+input[type=text]{
+	border:0px;
+	background:#f1f1f1;
+	color:#555;
+	font-size:12px;
+	padding:6px;
+	width:200px;
+}
+input[type=submit]{
+	border:0px;
+	background:#f1f1f1;
+	color:#555;
+	font-size:12px;
+	padding:6px;
+	width:80px;
+}
+</style>
+
+</head>  
+<body>
+	<div style="width:450px;">
+		<div class="triagle"></div>
+		<table><tr><td><img src="images/logo.png"></td><td><div style="margin-left:20px;height-line:12px;"><font style="font-size:26px;">MD-Fuzzer</font><font style="font-size:14px;"> V.1.0<br><a href="https://www.linkedin.com/in/mordavidwork" target="_blank">by Mor David</a></font><br><div style="margin-top:10px"><input type="text" value="onload" id="inputs"> <input type="submit" value="Check" id="btnCheck"></div>
+		<br><span id="status"></span></div></td></table>
+		<div><textarea id="results"></textarea></div>
+	</div>
+	<script src="popup.js"></script>  
+</body>  
+</html>  

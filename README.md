@@ -5,7 +5,7 @@ MD-Fuzzer is a simple chrome extension that helps you find and identify XSS or H
 Go to `chrome://extensions/`, Click on "Load unpacked", select this git folder. congrats.
 
 ### Screenshot:
-![Screenshot of MD-Fuzzer](https://mordavid.co.il/github/images/md-fuzzer.png) 
+![Screenshot of MD-Fuzzer](https://mordavid.co.il/github/images/md-fuzzer.jpg)
 
 ### Changelog:
 * 1.0 First Version
